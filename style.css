@@ -121,3 +121,46 @@ ul {
         text-align: left;
     }
 }
+
+.social li {
+    color: #6b6b6b
+}
+
+.social {
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    text-align: center
+}
+
+.social li {
+    display: inline;
+    font-weight: 200;
+    padding: 15px
+}
+
+.social a,
+.social li {
+    font-size: 25px
+}
+
+.social a {
+    color: inherit;
+}
+
+@media only screen and (max-width: 700px) {
+    .social {
+        padding: 20px 20px;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center
+    }
+    .social li {
+        display: inline;
+        font-weight: 200;
+        padding: 15px
+    }
+    .social a,
+    .social li {
+        font-size: 14px
+    }
+}
